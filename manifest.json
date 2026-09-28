@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "andreprohmann.openvpn",
+  "name": "OpenVPN",
+  "version": "1.0.0",
+  "author": "andreprohmann",
+  "license": "MIT",
+  "description": "Gerenciamento de conexões OpenVPN na barra do Omarchy",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "OpenVPN",
+    "description": "Conectar, desconectar e gerenciar perfis OpenVPN",
+    "category": "Network",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
